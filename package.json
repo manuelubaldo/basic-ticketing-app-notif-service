@@ -1,0 +1,11 @@
+{
+  "name": "ticketing-app-notif-service",
+  "dependencies": {
+    "express": "^4.16.3",
+    "socket.io": "^2.1.1"
+  },
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/index.js"
+  }
+}
