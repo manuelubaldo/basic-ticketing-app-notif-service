@@ -16,7 +16,7 @@ io.on('connection', function(socket){
     console.log("connected");
 
     socket.on('created',function(ticket) {
-        console.log(`created #${ticket}`);
+        console.log(`created`);
         io.sockets.emit('created',ticket);
     })
 
